@@ -18,4 +18,10 @@ Raspberry Pi Pico で HX711 の値を読み、micro-ROS を用いて ROS 2 ト�
 ## セットアップ
 このリポジトリをクローン
 
+# ライセンス
+`include/libmicroros` は [micro-ROS/micro_ros_raspberrypi_pico_sdk](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk) からコピーしてパクって来たもの
+
+もとのリポジトリに Apache-2.0 ライセンスが適用されているので本リポジトリも Apache-2.0 になるはず
+
+私としては Apache-2.0 あんま好きじゃないので `libmicroros` 以外は MIT にしたい
 
